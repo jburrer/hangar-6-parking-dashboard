@@ -1,0 +1,176 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+#fleet-box-container {
+    display: block;
+    position: absolute;
+    height: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 300px;
+    background-color: gold;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+    overflow: auto;
+}
+
+#fleet-box-container-2 {
+    display: block;
+    position: absolute;
+    height: auto;
+    top: 0;
+    bottom: 0;
+    right: 310px;
+    width: 300px;
+    background-color: gold;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+    overflow: auto;
+}
+
+.box-title {
+    background-color: black;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.plane {
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    display: table;
+    border-radius: 10px;
+}
+
+.archer {
+    background-color: gray;
+}
+
+.ap-archer {
+    background-color: green;
+}
+
+.seminole {
+    background-color: red;
+}
+
+.cessna {
+    background-color: blue;
+}
+
+#locations-box {
+    display: block;
+    position: absolute;
+    top: 100;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+</style>
+
+<script>
+function allowDrop(ev) {
+    ev.preventDefault();
+}
+
+function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    ev.target.appendChild(document.getElementById(data));
+}
+</script>
+
+</head>
+
+<body>
+
+  <div id="fleet-box-container" ondrop="drop(event)" ondragover="allowDrop(event)">
+    <div class="box-title">
+      Aircraft Fleet
+    </div>
+    <span class="plane archer" id="N850PU"
+          draggable="true" ondragstart="drag(event)">N850PU</span>
+    <span class="plane archer" id="N851PU"
+          draggable="true" ondragstart="drag(event)">N851PU</span>
+    <span class="plane archer" id="N852PU"
+          draggable="true" ondragstart="drag(event)">N852PU</span>
+    <span class="plane archer" id="N853PU"
+          draggable="true" ondragstart="drag(event)">N853PU</span>
+    <span class="plane archer" id="N854PU"
+          draggable="true" ondragstart="drag(event)">N854PU</span>
+    <span class="plane archer" id="N855PU"
+          draggable="true" ondragstart="drag(event)">N855PU</span>
+    <span class="plane archer" id="N856PU"
+          draggable="true" ondragstart="drag(event)">N856PU</span>
+    <span class="plane archer" id="N857PU"
+          draggable="true" ondragstart="drag(event)">N857PU</span>
+    <span class="plane archer" id="N858PU"
+          draggable="true" ondragstart="drag(event)">N858PU</span>
+    <span class="plane archer" id="N859PU"
+          draggable="true" ondragstart="drag(event)">N859PU</span>
+    <span class="plane archer" id="N860PU"
+          draggable="true" ondragstart="drag(event)">N860PU</span>
+    <span class="plane archer" id="N861PU"
+          draggable="true" ondragstart="drag(event)">N861PU</span>
+    <span class="plane archer" id="N862PU"
+          draggable="true" ondragstart="drag(event)">N862PU</span>
+    <span class="plane archer" id="N863PU"
+          draggable="true" ondragstart="drag(event)">N863PU</span>
+    <span class="plane archer" id="N864PU"
+          draggable="true" ondragstart="drag(event)">N864PU</span>
+    <span class="plane ap-archer" id="N865PU"
+          draggable="true" ondragstart="drag(event)">N865PU</span>
+    <span class="plane ap-archer" id="N866PU"
+          draggable="true" ondragstart="drag(event)">N866PU</span>
+    <span class="plane ap-archer" id="N867PU"
+          draggable="true" ondragstart="drag(event)">N867PU</span>
+    <span class="plane seminole" id="N570PU"
+          draggable="true" ondragstart="drag(event)">N570PU</span>
+    <span class="plane cessna" id="N651PA"
+          draggable="true" ondragstart="drag(event)">N651PA</span>
+    <span class="plane cessna" id="N652PA"
+          draggable="true" ondragstart="drag(event)">N652PA</span>
+    <span class="plane cessna" id="N653PA"
+          draggable="true" ondragstart="drag(event)">N653PA</span>
+    <span class="plane cessna" id="N654PA"
+          draggable="true" ondragstart="drag(event)">N654PA</span>
+    <span class="plane cessna" id="N665CS"
+          draggable="true" ondragstart="drag(event)">N665CS</span>
+  </div>
+
+  <div id="locations-box"></div>
+
+  <div id="fleet-box-container-2" ondrop="drop(event)" ondragover="allowDrop(event)">
+    <div class="box-title">
+      Aircraft Fleet 2
+    </div>
+  </div>
+
+</body>
+
+</html>

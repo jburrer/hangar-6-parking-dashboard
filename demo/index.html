@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+
+      body {
+          background-color: gray;
+      }
+
+      #frame {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          margin: auto;
+          width: 800px;
+          height: 800px;
+      }
+
+      .box {
+          position: absolute;
+          text-align: center;
+          border-radius: 10px;
+          border: 1px solid black;
+      }
+
+      .title-box {
+          top: 0;
+          left: 0;
+          right: 0;
+          width: 100%;
+          background-color: black;
+          color: white;
+          display: table;
+          overflow: hidden;
+      }
+
+      #title {
+          height: 75px;
+      }
+
+      #title h1 {
+          margin: 0;
+          display: table-cell;
+          vertical-align: middle;
+      }
+
+      #ramp {
+          top: 75px;
+          height: 725px;
+          width: 100px;
+          background-color: #cfb991;
+      }
+
+      .table-list {
+          position: absolute;
+          top: 30px;
+          width: 100%;
+          height: 695px;
+          text-align: left;
+      }
+
+      .table-list td {
+          padding-left: 10px;
+      }
+
+      #last-ramp-spot {
+          border-bottom: none;
+      }
+
+      #ramp-spots-container div {
+          height: 39px;
+          width: 100%;
+          border-bottom: 1px solid black;
+      }
+
+      #direction {
+          top: 75px;
+          left: 100px;
+          right: 100px;
+          height: 300px;
+          background-color: white;
+      }
+
+      .center-table {
+          width: 100%;
+          height: 100%;
+          border-collapse: collapse;
+          tab-layout: fixed;
+          empty-cells: hide;
+      }
+
+      .empty {
+          border: 0px;
+          background-color: gray;
+      }
+
+      #hangars {
+          top: 375px;
+          left: 100px;
+          right: 100px;
+          height: 250px;
+          background-color: white;
+      }
+
+      #other {
+          top: 625px;
+          left: 100px;
+          right: 100px;
+          height: 175px;
+          background-color: #cfb991;
+      }
+
+      #other-table-list {
+          top: 0px;
+          height: 175px;
+      }
+
+      #t-doors{
+          top: 75px;
+          right: 0px;
+          height: 725px;
+          width: 100px;
+          background-color: #cfb991;
+      }
+
+      /*
+      northwest: yellow;
+      notheast: green;
+      southeast: red;
+      southwest: blue;
+      */
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <div id="frame">
+      <div id="title" class="box title-box"><h1>Aircraft Locations</h1></div>
+      <div id="ramp" class="box">
+        <div class="box title-box" style="font-size: 1.5em">Ramp</div>
+        <table class="table-list" border="1" frame="void" rules="rows">
+            <tr><td>A</td></tr>
+            <tr><td>B</td></tr>
+            <tr><td>C</td></tr>
+            <tr><td>D</td></tr>
+            <tr><td>E</td></tr>
+            <tr><td>F</td></tr>
+            <tr><td>G</td></tr>
+            <tr><td>H</td></tr>
+            <tr><td>I</td></tr>
+            <tr><td>J</td></tr>
+            <tr><td>K</td></tr>
+            <tr><td>L</td></tr>
+            <tr><td>M</td></tr>
+            <tr><td>N</td></tr>
+            <tr><td>O</td></tr>
+            <tr><td>P</td></tr>
+            <tr><td>Q</td></tr>
+            <tr><td>R</td></tr>
+        </table>
+      </div>
+      <div id="direction" class="box">
+        <table class="center-table" border="1" frame="void">
+          <tr>
+            <td>XC</td>
+            <td>
+              <table class="center-table" border="1" frame="void">
+                <tr>
+                    <td colspan="2">KMCX</td>
+                </tr>
+                <tr>
+                    <td>Northwest</td>
+                    <td>Northeast</td>
+                </tr>
+              </table>
+            </td>
+            <td>XC</td>
+          </tr>
+          <tr>
+            <td>XC</td>
+            <td>
+              <table class="center-table" border="1" frame="void">
+                <tr>
+                  <td>Southwest</td>
+                  <td>Southeast</td>
+                </tr>
+                <tr>
+                  <td>KCFJ</td>
+                  <td>KFKR</td>
+                </tr>
+              </table>
+            </td>
+            <td>XC</td>
+          </tr>
+        </table>
+      </div>
+      <div id="hangars" class="box">
+        <table class="center-table" border="1" frame="void">
+          <tr>
+            <td colspan="3">Hangar 5</td>
+            <td colspan="3">Hangar 6W</td>
+            <td colspan="3">Hangar 6</td>
+          </tr>
+          <tr>
+            <td>&nbsp</td>
+            <td>&nbsp</td>
+            <td>&nbsp</td>
+            <td>&nbsp</td>
+            <td>
+              <table class="center-table" border="1" frame="void">
+                <tr>
+                  <td>&nbsp</td>
+                </tr>
+                <tr>
+                  <td>&nbsp</td>
+                </tr>
+              </table>
+            </td>
+            <td>&nbsp</td>
+            <td>&nbsp</td>
+            <td>&nbsp</td>
+            <td>&nbsp</td>
+          </tr>
+          <tr>
+            <td>&nbsp</td>
+            <td>&nbsp</td>
+            <td>&nbsp</td>
+            <td>&nbsp</td>
+            <td>
+              <table class="center-table" border="1" frame="void">
+                <tr>
+                  <td>&nbsp</td>
+                </tr>
+                <tr>
+                  <td>&nbsp</td>
+                </tr>
+              </table>
+            </td>
+            <td>&nbsp</td>
+            <td class="empty"></td>
+            <td>&nbsp</td>
+            <td class="empty"></td>
+          </tr>
+          <tr>
+            <td class="empty"></td>
+            <td>&nbsp</td>
+            <td class="empty"></td>
+            <td>&nbsp</td>
+            <td>
+              <table class="center-table" border="1" frame="void">
+                <tr>
+                  <td>&nbsp</td>
+                </tr>
+                <tr>
+                  <td>&nbsp</td>
+                </tr>
+              </table>
+            </td>
+            <td>&nbsp</td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+          </tr>
+        </table>
+      </div>
+      <div id="other" class="box">
+        <table id="other-table-list" class="table-list" border="1" frame="void" rules="rows">
+            <tr><td>Approaches</td></tr>
+            <tr><td>Landings</td></tr>
+            <tr><td>Purdue Aviation</td></tr>
+        </table>
+      </div>
+      <div id="t-doors" class="box">
+        <div class="box title-box" style="font-size: 1.5em">T Doors</div>
+        <table class="table-list" border="1" frame="void" rules="rows">
+            <tr><td>1</td></tr>
+            <tr><td>2</td></tr>
+            <tr><td>3</td></tr>
+            <tr><td>4</td></tr>
+            <tr><td>5</td></tr>
+            <tr><td>6</td></tr>
+            <tr><td>7</td></tr>
+            <tr><td>8</td></tr>
+            <tr><td>9</td></tr>
+            <tr><td>10</td></tr>
+        </table>
+      </div>
+    </div>
+
+  </body>
+  
+</html>
