@@ -1,0 +1,469 @@
+{
+    "spots": {
+        "ramp": [
+            {
+                "name": "ramp-a",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "ramp-b",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "ramp-c",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "ramp-d",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "ramp-e",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "ramp-f",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "ramp-g",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "ramp-h",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "ramp-i",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "ramp-j",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "ramp-k",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "ramp-l",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "ramp-m",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "ramp-n",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "ramp-o",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "ramp-p",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "ramp-q",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "ramp-r",
+                "single-capacity": true,
+                "plane": null
+            }
+        ],
+        "direction": [
+            {
+                "name": "xc-1",
+                "single-capacity": false,
+                "planes": []
+            },
+            {
+                "name": "xc-2",
+                "single-capacity": false,
+                "planes": []
+            },
+            {
+                "name": "xc-3",
+                "single-capacity": false,
+                "planes": []
+            },
+            {
+                "name": "xc-4",
+                "single-capacity": false,
+                "planes": []
+            },
+            {
+                "name": "northwest",
+                "single-capacity": false,
+                "planes": []
+            },
+            {
+                "name": "northeast",
+                "single-capacity": false,
+                "planes": []
+            },
+            {
+                "name": "southwest",
+                "single-capacity": false,
+                "planes": []
+            },
+            {
+                "name": "southeast",
+                "single-capacity": false,
+                "planes": []
+            },
+            {
+                "name": "kmcx",
+                "single-capacity": false,
+                "planes": []
+            },
+            {
+                "name": "kcfj",
+                "single-capacity": false,
+                "planes": []
+            },
+            {
+                "name": "kfkr",
+                "single-capacity": false,
+                "planes": []
+            }
+        ],
+        "hangars": [ 
+            {
+                "name": "h5-1",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "h5-2",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "h5-3",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "h5-4",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "h5-5",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "h5-6",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "h5-7",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "h6w-1",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "h6w-2",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "h6w-3",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "h6w-4",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "h6w-5",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "h6w-6",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "h6w-7",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "h6w-8",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "h6w-9",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "h6w-10",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "h6w-12",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "h6w-12",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "h6-1",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "h6-2",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "h6-3",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "h6-4",
+                "single-capacity": true,
+                "plane": null
+            }
+        ],
+        "other": [ 
+            {
+                "name": "approaches",
+                "single-capacity": false,
+                "planes": []
+            },
+            {
+                "name": "landings",
+                "single-capacity": false,
+                "planes": []
+            },
+            {
+                "name": "purdue-aviation",
+                "single-capacity": false,
+                "planes": []
+            }
+        ],
+        "tdoors": [ 
+            {
+                "name": "t-1",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "t-2",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "t-3",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "t-4",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "t-5",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "t-6",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "t-7",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "t-8",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "t-9",
+                "single-capacity": true,
+                "plane": null
+            },
+            {
+                "name": "t-10",
+                "single-capacity": true,
+                "plane": null
+            }
+        ] 
+    },
+    "planes": [
+        {
+            "tailNumber": "N850PU",
+            "type": "archer"
+        },
+        {
+            "tailNumber": "N851PU",
+            "type": "archer"
+        },
+        {
+            "tailNumber": "N852PU",
+            "type": "archer"
+        },
+        {
+            "tailNumber": "N853PU",
+            "type": "archer"
+        },
+        {
+            "tailNumber": "N854PU",
+            "type": "archer"
+        },
+        {
+            "tailNumber": "N855PU",
+            "type": "archer"
+        },
+        {
+            "tailNumber": "N856PU",
+            "type": "archer"
+        },
+        {
+            "tailNumber": "N857PU",
+            "type": "archer"
+        },
+        {
+            "tailNumber": "N858PU",
+            "type": "archer"
+        },
+        {
+            "tailNumber": "N859PU",
+            "type": "archer"
+        },
+        {
+            "tailNumber": "N860PU",
+            "type": "archer"
+        },
+        {
+            "tailNumber": "N861PU",
+            "type": "archer"
+        },
+        {
+            "tailNumber": "N862PU",
+            "type": "archer"
+        },
+        {
+            "tailNumber": "N863PU",
+            "type": "archer"
+        },
+        {
+            "tailNumber": "N864PU",
+            "type": "archer"
+        },
+        {
+            "tailNumber": "N865PU",
+            "type": "ap-archer"
+        },
+        {
+            "tailNumber": "N866PU",
+            "type": "ap-archer"
+        },
+        {
+            "tailNumber": "N867PU",
+            "type": "ap-archer"
+        },
+        {
+            "tailNumber": "N651PA",
+            "type": "cessna"
+        },
+        {
+            "tailNumber": "N652PA",
+            "type": "cessna"
+        },
+        {
+            "tailNumber": "N653PA",
+            "type": "cessna"
+        },
+        {
+            "tailNumber": "N654PA",
+            "type": "cessna"
+        },
+        {
+            "tailNumber": "N665CS",
+            "type": "cessna"
+        },
+        {
+            "tailNumber": "N540PU",
+            "type": "arrow"
+        },
+        {
+            "tailNumber": "N541PU",
+            "type": "arrow"
+        },
+        {
+            "tailNumber": "N542PU",
+            "type": "arrow"
+        },
+        {
+            "tailNumber": "N543PU",
+            "type": "arrow"
+        },
+        {
+            "tailNumber": "N570PU",
+            "type": "seminole"
+        },
+        {
+            "tailNumber": "N571PU",
+            "type": "seminole"
+        },
+        {
+            "tailNumber": "N455SA",
+            "type": "sky-arrow"
+        },
+        {
+            "tailNumber": "N458SA",
+            "type": "sky-arrow"
+        },
+        {
+            "tailNumber": "N600PU",
+            "type": "sky-arrow"
+        }
+    ]
+}
